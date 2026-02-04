@@ -1,0 +1,48 @@
+name: Engagement Request (Delegation)
+description: Request a private conversation regarding delegated operation of the Governed Data Stack.
+title: "[Engagement] Context & Alignment"
+labels: ["engagement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is self-operable.
+        Engagement is optional and selective.
+
+        Please complete the sections below to determine whether engagement is appropriate.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Briefly describe your situation and why this repository is relevant.
+    validations:
+      required: true
+  - type: dropdown
+    id: scale
+    attributes:
+      label: Data Scale
+      options:
+        - Under 1 TB
+        - 1–5 TB
+        - 5–20 TB
+        - 20+ TB
+  - type: checkboxes
+    id: concerns
+    attributes:
+      label: Primary Concerns
+      options:
+        - label: Exit readiness
+        - label: Cost containment
+        - label: Provenance / attribution
+        - label: Automation or agents
+        - label: Governance & delegation
+  - type: textarea
+    id: automation
+    attributes:
+      label: Automation / Agents (if any)
+      description: Are automated systems or agents currently in use or planned?
+  - type: markdown
+    attributes:
+      value: |
+        Do **not** include sensitive information.
+        If alignment exists, next steps will be discussed privately.
