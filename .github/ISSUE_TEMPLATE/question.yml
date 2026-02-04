@@ -1,0 +1,17 @@
+name: Question
+description: Ask a clarification question about the repository.
+title: "[Question]"
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask a focused question related to the repository.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        This repository prioritizes clarity over speed.
+        Responses may be selective.
