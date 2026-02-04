@@ -107,3 +107,11 @@ Cloud:
 
 The canonical structure lives on the edge node:
 
+/Vault
+/00-Identity
+/01-Admin
+/02-Projects
+/03-Media
+/04-Archive
+/05-Exports
+/06-Logs
