@@ -92,3 +92,6 @@ It is not written for:
 
 ## Repository Structure
 
+/docs — design rationale and tradeoffs
+/examples — applied walkthroughs and artifacts
+/services — optional delegation paths
